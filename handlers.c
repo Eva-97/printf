@@ -2,14 +2,13 @@
 /************************* WRITE HANDLE *************************/
 
 /**
- * handle_write_char - Prints a string
- * @c: char types.
+ * handle_write_char - This command prints a string
+ * @c: this shows char types.
  * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags.
+ * @flags:  This command calculates active flags.
  * @width: get width.
- * @precision: precision specifier
- * @size: Size specifier
- *
+ * @precision: this is for precision specifier
+ * @size: This is for size specifier
  * Return: Number of chars printed.
  */
 
@@ -77,15 +76,14 @@ return (write(1, &buffer[0], 1));
 
 /************************* WRITE NUMBER *************************/
 /**
- * write_number - Prints a string
- * @is_negative: Lista of arguments
- * @ind: char types.
+ * write_number - This command prints a string
+ * @is_negative: This is the lista of arguments
+ * @ind: this shows char types.
  * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags
+ * @flags:  This command calculates active flags
  * @width: get width.
- * @precision: precision specifier
- * @size: Size specifier
- *
+ * @precision: This is for precision specifier
+ * @size: This is for size specifier
  * Return: Number of chars printed.
  */
 
@@ -130,16 +128,15 @@ length, padd, extra_ch));
 }
  
  /**
- * write_num - Write a number using a bufffer
+ * write_num - This command will write a number using a bufffer
  * @ind: Index at which the number starts on the buffer
  * @buffer: Buffer
  * @flags: Flags
  * @width: width
- * @prec: Precision specifier
+ * @prec: this is for Precision specifier
  * @length: Number length
  * @padd: Pading char
  * @extra_c: Extra char
- *
  * Return: Number of printed chars.
  */
 
@@ -237,15 +234,14 @@ return (write(1, &buffer[ind], length));
 
 /**
 
- * write_unsgnd - Writes an unsigned number
- * @is_negative: Number indicating if the num is negative
+ * write_unsgnd - This command writes an unsigned number
+ * @is_negative: This is the number indicating if the num is negative
  * @ind: Index at which the number starts in the buffer
  * @buffer: Array of chars
  * @flags: Flags specifiers
  * @width: Width specifier
- * @precision: Precision specifier
- * @size: Size specifier
- *
+ * @precision: This is the recision specifier
+ * @size: This is the size specifier
  * Return: Number of written chars.
  */
 
@@ -342,16 +338,15 @@ return (write(1, &buffer[ind], length));
 
 
 /**
- * write_pointer - Write a memory address
+ * write_pointer - This command will write a memory address
  * @buffer: Arrays of chars
  * @ind: Index at which the number starts in the buffer
- * @length: Length of number
+ * @length: This will show the Length of number
  * @width: Wwidth specifier
  * @flags: Flags specifier
  * @padd: Char representing the padding
  * @extra_c: Char representing extra char
  * @padd_start: Index at which padding should start
- *
  * Return: Number of written chars.
  */
 
