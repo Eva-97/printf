@@ -3,10 +3,10 @@
 #include "main.h"
 
 /**
- * main - Entry point
- *
- * Return: Always 0
+ * main - Thsi is the main entry point
+ * Return: Th Return has to be 0
  */
+
 int main(void)
 {
     int len;
