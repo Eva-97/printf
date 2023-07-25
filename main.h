@@ -39,10 +39,9 @@
 
 
 /**
- * struct fmt - Struct op
- *
- * @fmt: The format.
- * @fn: The function associated.
+ * struct fmt - This command is for struct op
+ * @fmt: This is the format.
+ * @fn: This is the function associated.
  */
 
 struct fmt
@@ -60,13 +59,11 @@ int (*fn)(va_list, char[], int, int, int, int);
 
 /**
  * typedef struct fmt fmt_t - Struct op
- *
- * @fmt: The format.
+ * @fmt: This is the format.
  * @fm_t: The function associated.
  */
 
 typedef struct fmt fmt_t;
-
 
 
 int _printf(const char *format, ...);
@@ -81,7 +78,7 @@ va_list list, char buffer[], int flags, int width, int precision, int size);
 
 
 
-/* Funtions to print chars and strings */
+/* This is the funtions to print chars and strings */
 
 int print_char(va_list types, char buffer[],
 
@@ -97,7 +94,7 @@ int flags, int width, int precision, int size);
 
 
 
-/* Functions to print numbers */
+/* This is the functions to print numbers */
 
 int print_int(va_list types, char buffer[],
 
@@ -131,7 +128,7 @@ char buffer[], int flags, char flag_ch, int width, int precision, int size);
 
 
 
-/* Function to print non printable characters */
+/* This is the function to print non printable characters */
 
 int print_non_printable(va_list types, char buffer[],
 
@@ -139,7 +136,7 @@ int flags, int width, int precision, int size);
 
 
 
-/* Funcion to print memory address */
+/* This is the funcion to print memory address */
 
 int print_pointer(va_list types, char buffer[],
 
@@ -147,7 +144,7 @@ int flags, int width, int precision, int size);
 
 
 
-/* Funciotns to handle other specifiers */
+/* This is the funciotns to handle other specifiers */
 
 int get_flags(const char *format, int *i);
 
@@ -159,7 +156,7 @@ int get_size(const char *format, int *i);
 
 
 
-/*Function to print string in reverse*/
+/* This is the function to print string in reverse*/
 
 int print_reverse(va_list types, char buffer[],
 
@@ -167,7 +164,7 @@ int flags, int width, int precision, int size);
 
 
 
-/*Function to print a string in rot 13*/
+/* This is the function to print a string in rot 13*/
 
 int print_rot13string(va_list types, char buffer[],
 
@@ -175,7 +172,7 @@ int flags, int width, int precision, int size);
 
 
 
-/* width handler */
+/* This is the width handler */
 
 int handle_write_char(char c, char buffer[],
 
@@ -203,7 +200,7 @@ int flags, int width, int precision, int size);
 
 
 
-/****************** UTILS ******************/
+/****************** UTILITIES ******************/
 
 int is_printable(char);
 
