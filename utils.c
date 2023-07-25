@@ -3,9 +3,8 @@
 
 
 /**
- * is_printable - Evaluates if a char is printable
- * @c: Char to be evaluated.
- *
+ * is_printable - This command evaluates if a char is printable
+ * @c: This is the char to be evaluated.
  * Return: 1 if c is printable, 0 otherwise
  */
 
@@ -26,7 +25,7 @@ return (0);
 
 
 /**
- * append_hexa_code - Append ascci in hexadecimal code to buffer
+ * append_hexa_code - this will Append ascci in hexadecimal code to buffer
  * @buffer: Array of chars.
  * @i: Index at which to start appending.
  * @ascii_code: ASSCI CODE.
@@ -66,9 +65,8 @@ return (3);
 
 
 /**
- * is_digit - Verifies if a char is a digit
+ * is_digit - this command verifies if a char is a digit
  * @c: Char to be evaluated
- *
  * Return: 1 if c is a digit, 0 otherwise
  */
 
@@ -89,10 +87,9 @@ return (0);
 
 
 /**
- * convert_size_number - Casts a number to the specified size
+ * convert_size_number - This command casts a number to the specified size
  * @num: Number to be casted.
  * @size: Number indicating the type to be casted.
- *
  * Return: Casted value of num
  */
 
@@ -117,10 +114,9 @@ return ((int)num);
 
 
 /**
- * convert_size_unsgnd - Casts a number to the specified size
+ * convert_size_unsgnd - Thhis command casts a number to the specified size
  * @num: Number to be casted
  * @size: Number indicating the type to be casted
- *
  * Return: Casted value of num
  */
 
